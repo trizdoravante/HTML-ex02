@@ -1,0 +1,65 @@
+h1{
+    font-family: Impact;
+    font-style: italic;
+    color: #ff4d4d;
+    background-color: #32ff7e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px
+}
+p{
+    font-family: 'Trebuchet MS';
+    color: #ff4d4d;
+    font-size: 25px;
+}
+.imagem-redonda{
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+}
+.centralizar-texto{
+    text-align: center;
+}
+h2{
+    font-family: Impact;
+    font-style: italic;
+    color: #ff4d4d;
+    background-color: #32ff7e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px
+}
+h3{
+    font-family: Impact;
+    font-style: italic;
+    color: #ff4d4d;
+    background-color: #32ff7e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px
+
+}
+.botoes-redes-sociais {
+    text-align: center;
+    padding: 20px; 
+}
+
+.botoes-redes-sociais a {
+    display: inline-block; 
+    margin: 0 10px; 
+    width: 30px; 
+    height: 30px; 
+}
+
+.botoes-redes-sociais img {
+    width: 100%; 
+    height: 100%;
+}
+
+
+.botoes-redes-sociais a:hover {
+    filter: brightness(1.2); 
+}
