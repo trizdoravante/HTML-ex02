@@ -56,6 +56,32 @@
             <h2>*Valores em breve!</h2>
         </div>
 
+        <h3> Cadastre seu e-mail para receber atualizações desta e outras linhas!</h3>
+        <form action="#" method="POST">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" onkeyup="validaNome()" name="nome" required><br><br>
+            <div id="txtNome"></div>
+    
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required><br><br>
+    
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco"><br><br>
+    
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select><br><br>
+    
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" onkeyup="validaEmail()" name="email" required><br><br>
+            <div id="txtEmail"></div>
+    
+            <input type="submit" value="Cadastrar">
+        </form>
+
         <div class="botoes-redes-sociais">  
         <h3>Nos Acompanhe em Nossas Redes Oficiais! </h3>
 
@@ -73,5 +99,6 @@
 
             <footer class="centralizar-texto">Desenvolvido por Beatriz Campos, 2023 &copy;</footer>
         
+            <script src="script.js"></script>
 </body>
 </html>
